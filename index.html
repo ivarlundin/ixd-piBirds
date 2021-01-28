@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>Birdland</title>
+<title>index</title>
 <style title="Twine CSS">@keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes rumble{25%{top:-0.1em}75%{top:0.1em}0%,to{top:0px}}@keyframes shudder{25%{left:0.1em}75%{left:-0.1em}0%,to{left:0px}}@keyframes buoy{25%{top:0.25em}75%{top:-0.25em}0%,to{top:0px}}@keyframes sway{25%{left:0.25em}75%{left:-0.25em}0%,to{left:0px}}@keyframes pulse{0%{transform:scale(0, 0)}20%{transform:scale(1.2, 1.2)}40%{transform:scale(0.9, 0.9)}60%{transform:scale(1.05, 1.05)}80%{transform:scale(0.925, 0.925)}to{transform:scale(1, 1)}}@keyframes zoom-in{0%{transform:scale(0, 0)}to{transform:scale(1, 1)}}@keyframes shudder-in{0%, to{transform:translateX(0em)}5%, 25%, 45%{transform:translateX(-1em)}15%, 35%, 55%{transform:translateX(1em)}65%{transform:translateX(-0.6em)}75%{transform:translateX(0.6em)}85%{transform:translateX(-0.2em)}95%{transform:translateX(0.2em)}}@keyframes rumble-in{0%, to{transform:translateY(0em)}5%, 25%, 45%{transform:translateY(-1em)}15%, 35%, 55%{transform:translateY(1em)}65%{transform:translateY(-0.6em)}75%{transform:translateY(0.6em)}85%{transform:translateY(-0.2em)}95%{transform:translateY(0.2em)}}@keyframes fidget{0%, 8.1%, 82.1%, 31.1%, 38.1%, 44.1%, 40.1%, 47.1%, 74.1%, 16.1%, 27.1%, 72.1%, 24.1%, 95.1%, 6.1%, 36.1%, 20.1%, 4.1%, 91.1%, 14.1%, 87.1%, to{left:0px;top:0px}8%, 82%, 31%, 38%, 44%{left:-1px}40%, 47%, 74%, 16%, 27%{left:1px}72%, 24%, 95%, 6%, 36%{top:-1px}20%, 4%, 91%, 14%, 87%{top:1px}}@keyframes slide-right{0%{transform:translateX(-100vw)}}@keyframes slide-left{0%{transform:translateX(100vw)}}@keyframes slide-up{0%{transform:translateY(100vh)}}@keyframes slide-down{0%{transform:translateY(-100vh)}}@keyframes fade-right{0%{opacity:0;transform:translateX(-1em)}to{opacity:1}}@keyframes fade-left{0%{opacity:0;transform:translateX(1em)}to{opacity:1}}@keyframes fade-up{0%{opacity:0;transform:translateY(1em)}to{opacity:1}}@keyframes fade-down{0%{opacity:0;transform:translateY(-1em)}to{opacity:1}}@keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:0.2}64%{opacity:0.4}78%{opacity:0.6}87%{opacity:0.8}92%, to{opacity:1}}@keyframes blur{0%{filter:blur(2rem);opacity:0}25%{opacity:1}to{filter:blur(0rem);opacity:1}}.dom-debug-mode tw-story,.dom-debug-mode tw-passage,.dom-debug-mode tw-sidebar,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{outline:1px solid #f5a3da;min-height:32px;display:block !important}.dom-debug-mode tw-story::before,.dom-debug-mode tw-passage::before,.dom-debug-mode tw-sidebar::before,.dom-debug-mode tw-include::before,.dom-debug-mode tw-hook::before,.dom-debug-mode tw-expression::before,.dom-debug-mode tw-link::before,.dom-debug-mode tw-dialog::before,.dom-debug-mode tw-columns::before,.dom-debug-mode tw-column::before,.dom-debug-mode tw-align::before{position:absolute;top:0;left:0;height:16px;background-color:#f5a3da;color:black;font-size:16px;font-weight:normal;font-style:normal;font-family:monospace;display:inline-block;line-height:100%;white-space:pre;z-index:999997}.dom-debug-mode tw-story:hover,.dom-debug-mode tw-passage:hover,.dom-debug-mode tw-sidebar:hover,.dom-debug-mode tw-include:hover,.dom-debug-mode tw-hook:hover,.dom-debug-mode tw-expression:hover,.dom-debug-mode tw-link:hover,.dom-debug-mode tw-dialog:hover,.dom-debug-mode tw-columns:hover,.dom-debug-mode tw-column:hover,.dom-debug-mode tw-align:hover{outline:1px solid #fc9}.dom-debug-mode tw-story:hover::before,.dom-debug-mode tw-passage:hover::before,.dom-debug-mode tw-sidebar:hover::before,.dom-debug-mode tw-include:hover::before,.dom-debug-mode tw-hook:hover::before,.dom-debug-mode tw-expression:hover::before,.dom-debug-mode tw-link:hover::before,.dom-debug-mode tw-dialog:hover::before,.dom-debug-mode tw-columns:hover::before,.dom-debug-mode tw-column:hover::before,.dom-debug-mode tw-align:hover::before{background-color:#fc9;transition:background-color 1s}.dom-debug-mode tw-passage,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{padding:1em;margin:0}.dom-debug-mode tw-story::before{content:'<tw-story tags="' attr(tags) '">'}.dom-debug-mode tw-passage::before{top:-16px;content:'<tw-passage tags="' attr(tags) '">'}.dom-debug-mode tw-sidebar::before{top:-16px;content:"<tw-sidebar>"}.dom-debug-mode tw-hook::before{content:'<tw-hook name="' attr(name) '">'}.dom-debug-mode tw-expression::before{content:'<tw-expression name="' attr(name) '">'}.dom-debug-mode tw-link::before{content:'<tw-link name="' attr(name) '">'}.dom-debug-mode tw-dialog::before{content:"<tw-dialog>"}.dom-debug-mode tw-columns::before{content:"<tw-columns>"}.dom-debug-mode tw-column::before{content:"<tw-column>"}.dom-debug-mode tw-align::before{content:"<tw-align>"}.dom-debug-mode tw-include::before{content:'<tw-include type="' attr(type) '" title="' attr(title) '">'}.debug-mode tw-expression{display:inline-block !important}.debug-mode tw-expression[type=variable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[return=boolean]{background-color:rgba(179,179,179,0.2)}.debug-mode tw-expression[return=array]{background-color:rgba(255,102,102,0.2)}.debug-mode tw-expression[return=dataset]{background-color:rgba(255,128,0,0.2)}.debug-mode tw-expression[return=number]{background-color:rgba(255,179,102,0.2)}.debug-mode tw-expression[return=datamap]{background-color:rgba(255,255,102,0.2)}.debug-mode tw-expression[return=changer]{background-color:rgba(179,255,102,0.2)}.debug-mode tw-expression[return=lambda]{background-color:rgba(102,255,102,0.2)}.debug-mode tw-expression[return=hookname]{background-color:rgba(102,255,204,0.2)}.debug-mode tw-expression[return=string]{background-color:rgba(102,255,255,0.2)}.debug-mode tw-expression[return=datatype]{background-color:rgba(102,153,255,0.2)}.debug-mode tw-expression[return=gradient],.debug-mode tw-expression[return=colour]{background-color:rgba(204,102,255,0.2)}.debug-mode tw-expression[return=instant],.debug-mode tw-expression[return=macro]{background-color:rgba(240,117,199,0.2)}.debug-mode tw-expression[return=command]{background-color:rgba(153,153,255,0.2)}.debug-mode tw-expression.false{background-color:rgba(255,0,0,0.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 0.5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,0.5)}.debug-mode tw-hook{background-color:rgba(0,85,255,0.1) !important}.debug-mode tw-hook::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,0.1) !important}.debug-mode tw-collapsed::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 50%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, rgba(255,204,189,0.25) 0%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,0.2)}.debug-mode tw-enchantment{animation:enchantment 0.5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,0.1)}.debug-mode tw-include::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(type) ' "' attr(title) '"'}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:10em;min-height:1em;padding:0em 0.5em 0.5em 1em;font-size:1.25em;font-family:sans-serif;color:#000;border-left:solid #000 2px;border-top:solid #000 2px;border-top-left-radius:.5em;background:#fff;opacity:1}tw-debugger select{margin-right:1em;width:12em}tw-debugger button{border-radius:3px;border:solid #999 1px;margin:auto 4px;background-color:#fff;font-size:inherit;color:#000}tw-debugger button.enabled{background-color:#eee;box-shadow:inset #ddd 3px 5px 0.5em}tw-debugger .panel{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;max-height:40vh;overflow-y:scroll;overflow-x:hidden;z-index:999998;background:#fff;border:inherit;border-bottom:solid #999 2px;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:0.8em}tw-debugger .panel:empty,tw-debugger .panel[hidden]{display:none}tw-debugger .panel-source,tw-debugger .panel-row-source{font-family:monospace;overflow-x:scroll;white-space:pre;-ms-flex-preferred-size:100%;flex-basis:100%}tw-debugger .panel-row-source{margin:5px 0}tw-debugger .panel-rows{width:100%;overflow-x:scroll}tw-debugger .panel-rows>*{display:table-row}tw-debugger .panel-rows>div:nth-of-type(2n){background:#EEE}tw-debugger .panel-row-buttons{text-align:right}tw-debugger .panel-variables .panel-rows:empty::before{content:"~ No variables ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-enchantments .panel-rows:empty::before{content:"~ No enchantments ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-errors .panel-rows:empty::before{content:"~ No errors... for now. ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-rows:empty+.panel-variables-bottom{display:none}tw-debugger .panel-storylets:not(.panel-exclusive) .storylet-exclusive,tw-debugger .panel-storylets:not(.panel-urgent) .storylet-urgent{display:none}tw-debugger .panel-variables-bottom{padding-top:5px}tw-debugger .enchantment-row{min-height:1.5em}tw-debugger .variable-path{opacity:0.4}tw-debugger .temporary-variable-scope,tw-debugger .enchantment-local{font-family:sans-serif;font-weight:normal;opacity:0.8;font-size:0.75em}tw-debugger .temporary-variable-scope:not(:empty)::before,tw-debugger .enchantment-local:not(:empty)::before{content:" in "}tw-debugger .variable-name,tw-debugger .enchantment-name{font-family:monospace;font-weight:bold}tw-debugger .variable-type{color:#444;font-weight:normal;text-overflow:ellipsis;overflow:hidden;max-width:10em}tw-debugger .error-row{display:table-row;background-color:rgba(230,101,204,0.3)}tw-debugger .error-row:nth-of-type(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .error-row>*{display:table-cell;padding:0.25em 0.5em}tw-debugger .error-row .error-message{cursor:help}tw-debugger .error-row .error-passage{color:#444}tw-debugger .storylet-row{background-color:rgba(201,233,222,0.3)}tw-debugger .storylet-row:nth-child(2n){background-color:rgba(128,203,178,0.3)}tw-debugger .storylet-row.storylet-closed{font-style:italic;opacity:0.4;background-color:rgba(217,217,217,0.3)}tw-debugger .storylet-row.storylet-closed:nth-child(2n){background-color:rgba(166,166,166,0.3)}.storylet-error tw-debugger .storylet-row{background-color:rgba(230,101,204,0.3)}.storylet-error tw-debugger .storylet-row:nth-child(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .storylet-row .storylet-name,tw-debugger .storylet-row .storylet-value{display:inline-block;width:50%}tw-debugger .tabs{padding-bottom:0.5em}tw-debugger .tab{border-radius:0px 0px 0.5em 0.5em;border-top:none}tw-debugger .resizer{position:absolute;height:3em;border-left:2px solid #ccc;border-right:2px solid #ccc;top:10px;left:4px;width:8px;cursor:ew-resize}tw-dialog{z-index:999997;border:#fff solid 2px;padding:2em;color:#fff;background-color:#000;display:block}@media (min-width: 576px){tw-dialog{max-width:50vw}}tw-dialog input[type=text]{font-size:inherit;width:100%}tw-dialog-links{text-align:right;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end}tw-backdrop{z-index:999996;position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.8);display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}tw-backdrop ~ tw-backdrop{display:none}tw-link,.link,tw-icon,.enchantment-clickblock{cursor:pointer}tw-link,.enchantment-link{color:#4169E1;font-weight:bold;text-decoration:none;transition:color 0.2s ease-in-out}tw-passage [style^="color"] tw-link:not(:hover),tw-passage [style*=" color"] tw-link:not(:hover),tw-passage [style^="color"][hover="true"] tw-link:hover,tw-passage [style*=" color"][hover="true"] tw-link:hover,tw-passage [style^="color"] .enchantment-link:not(:hover),tw-passage [style*=" color"] .enchantment-link:not(:hover),tw-passage [style^="color"][hover="true"] .enchantment-link:hover,tw-passage [style*=" color"][hover="true"] .enchantment-link:hover{color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#DD4B39}.visited{color:#6941e1}tw-passage [style^="color"] .visited:not(:hover),tw-passage [style*=" color"] .visited:not(:hover),tw-passage [style^="color"][hover="true"] .visited:hover,tw-passage [style*=" color"][hover="true"] .visited:hover{color:inherit}.visited:hover{color:#E3E}tw-broken-link{color:#993333;border-bottom:2px solid #993333;cursor:not-allowed}tw-passage [style^="color"] tw-broken-link:not(:hover),tw-passage [style*=" color"] tw-broken-link:not(:hover),tw-passage [style^="color"][hover="true"] tw-broken-link:hover,tw-passage [style*=" color"][hover="true"] tw-broken-link:hover{color:inherit}.enchantment-mouseover{border-bottom:2px dashed #999}.enchantment-mouseout{border:rgba(64,149,191,0.6) 1px solid}.enchantment-mouseout:hover{background-color:rgba(175,197,207,0.75);border:transparent 1px solid;border-radius:0.2em}.enchantment-clickblock{width:100%;height:100%;display:block}.enchantment-clickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;color:rgba(65,105,225,0.5);transition:color 0.2s ease-in-out}.enchantment-clickblock>:not(tw-enchantment):hover::after{color:rgba(0,191,255,0.5)}.enchantment-clickblock>:not(tw-enchantment):active::after{color:rgba(222,78,59,0.5)}.enchantment-clickblock>:not(tw-enchantment)::after{box-shadow:inset 0 0 0 0.5vmax}.enchantment-clickblock>tw-passage::after,.enchantment-clickblock>tw-sidebar::after{box-shadow:0 0 0 0.5vmax}.enchantment-mouseoverblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:2px dashed #999}.enchantment-mouseoutblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:rgba(64,149,191,0.6) 2px solid}.enchantment-mouseoutblock:hover>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;background-color:rgba(175,197,207,0.75);border:transparent 2px solid;border-radius:0.2em}tw-link.enchantment-button,.enchantment-link.enchantment-button,.enchantment-button:not(.enchantment-link) tw-link,.enchantment-button:not(.enchantment-link) .enchantment-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}tw-dialog-links{padding-top:1.5em}tw-dialog-links tw-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block;display:inline-block}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font:100% Georgia, serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 5%;overflow:hidden;background-color:#000;color:#fff}tw-story [style*=content-box] *{box-sizing:border-box}@media (min-width: 576px){tw-story{padding:5% 20%}}tw-story tw-consecutive-br{display:block;height:1.6ex;visibility:hidden}tw-story select{background-color:transparent;font:inherit;border-style:solid;padding:2px}tw-story select:not([disabled]){color:inherit}tw-story textarea{resize:none;background-color:transparent;font:inherit;color:inherit;border-style:none;padding:2px}tw-story input[type=checkbox]{transform:scale(1.5);margin:0 0.5em}tw-story tw-noscript{animation:appear 0.8s}tw-passage{display:block}tw-sidebar{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media (min-width: 576px){tw-sidebar{left:-5em;width:3em;position:absolute;-ms-flex-direction:column;flex-direction:column}}tw-icon{display:inline-block;margin:0.5em 0;font-size:66px;font-family:"Verdana",sans-serif}tw-icon[alt]{opacity:0.2}tw-icon[alt]:hover{opacity:0.4}tw-icon[data-label]::after{font-weight:bold;content:attr(data-label);font-size:20px;bottom:-20px;left:-50%;white-space:nowrap}tw-meter{display:block}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:0.2em;padding:0.2em;font-size:1rem;cursor:help;white-space:pre-wrap}tw-error.error{background-color:rgba(223,58,190,0.6);color:#fff}tw-error.warning{background-color:rgba(223,140,58,0.6);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:0.8rem;line-height:1rem}tw-open-button,tw-folddown{cursor:pointer;line-height:0em;border-radius:1px;border:1px solid black;font-size:0.8rem;margin:0 0.4rem;padding:2px;white-space:pre}tw-folddown::after{content:"\25b6"}tw-folddown.open::after{content:"\25bc"}tw-open-button::after{content:"Open"}tw-notifier{border-radius:0.2em;padding:0.2em;font-size:1rem;background-color:rgba(223,182,58,0.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid black;display:inline-block;width:1em;height:1em}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:0.3em 0 0.6em 0}pre{font-size:1rem;line-height:initial}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,0.6);background-color:#ff9}ins{color:rgba(0,0,0,0.6);background-color:rgba(255,242,204,0.5);border-radius:0.5em;box-shadow:0em 0em 0.2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.transition-in{animation:appear 0ms step-start}.transition-out{animation:appear 0ms step-end}[data-t8n^=dissolve].transition-in,[data-t8n=fade].transition-in{animation:appear .8s}[data-t8n^=dissolve].transition-out,[data-t8n=fade].transition-out{animation:appear .8s reverse}[data-t8n^=shudder].transition-in{display:inline-block !important;animation:shudder-in .8s}[data-t8n^=shudder].transition-out{display:inline-block !important;animation:shudder-in .8s reverse}[data-t8n^=rumble].transition-in{display:inline-block !important;animation:rumble-in .8s}[data-t8n^=rumble].transition-out{display:inline-block !important;animation:rumble-in .8s reverse}[data-t8n^=pulse].transition-in{animation:pulse .8s;display:inline-block !important}[data-t8n^=pulse].transition-out{animation:pulse .8s reverse;display:inline-block !important}[data-t8n^=zoom].transition-in{animation:zoom-in .8s;display:inline-block !important}[data-t8n^=zoom].transition-out{animation:zoom-in .8s reverse;display:inline-block !important}[data-t8n^=blur].transition-in{animation:blur .8s;display:inline-block !important}[data-t8n^=blur].transition-out{animation:blur .8s reverse;display:inline-block !important}[data-t8n^=slideleft].transition-in{animation:slide-left .8s;display:inline-block !important}[data-t8n^=slideleft].transition-out{animation:slide-right .8s reverse;display:inline-block !important}[data-t8n^=slideright].transition-in{animation:slide-right .8s;display:inline-block !important}[data-t8n^=slideright].transition-out{animation:slide-left .8s reverse;display:inline-block !important}[data-t8n^=slideup].transition-in{animation:slide-up .8s;display:inline-block !important}[data-t8n^=slideup].transition-out{animation:slide-down .8s reverse;display:inline-block !important}[data-t8n^=slidedown].transition-in{animation:slide-down .8s;display:inline-block !important}[data-t8n^=slidedown].transition-out{animation:slide-up .8s reverse;display:inline-block !important}[data-t8n^=fadeleft].transition-in{animation:fade-left .8s;display:inline-block !important}[data-t8n^=fadeleft].transition-out{animation:fade-right .8s reverse;display:inline-block !important}[data-t8n^=faderight].transition-in{animation:fade-right .8s;display:inline-block !important}[data-t8n^=faderight].transition-out{animation:fade-left .8s reverse;display:inline-block !important}[data-t8n^=fadeup].transition-in{animation:fade-up .8s;display:inline-block !important}[data-t8n^=fadeup].transition-out{animation:fade-down .8s reverse;display:inline-block !important}[data-t8n^=fadedown].transition-in{animation:fade-down .8s;display:inline-block !important}[data-t8n^=fadedown].transition-out{animation:fade-up .8s reverse;display:inline-block !important}[data-t8n^=flicker].transition-in{animation:flicker .8s}[data-t8n^=flicker].transition-out{animation:flicker .8s reverse}
 </style>
 </head>
 <body>
-<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Birdland.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Birdland" startnode="1" creator="Twine" creator-version="2.3.12" ifid="B0DB6F10-F75D-4486-99E3-D57B2EF8FE3F" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.google.com/specimen/IBM+Plex+Mono?selection.family=IBM+Plex+Mono:ital@0;1');
+<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play index.</tw-noscript></noscript></tw-story>
+<tw-storydata name="index" startnode="1" creator="Twine" creator-version="2.3.12" ifid="B0DB6F10-F75D-4486-99E3-D57B2EF8FE3F" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.google.com/specimen/IBM+Plex+Mono?selection.family=IBM+Plex+Mono:ital@0;1');
 
 body{
   background-color: #e6e6e6;
@@ -24,14 +24,16 @@ tw-story {
 }
 tw-link
 {
-  color: #106321;
+  color: #1BA537;
   transition: 0.5s ease-in-out;
+  /*text-shadow: 1px 1px 2px black;*/
   font-size: 25px;
 }
 tw-link:hover
 {
   padding-left: 0.3em;
   color: #83ebcc;
+  text-shadow: 1px 1px 2px black;
 }
 
 
@@ -122,6 +124,7 @@ document.body.addEventListener('click',function() {
 	} 
 },false)
 
+
 function turnOffAudio() {
 	audio.stop();
 }
@@ -152,9 +155,8 @@ You get served a meal of bird-seeds...
 
 
 [[Pledge your thanks to the serving staff-&gt;Pledge your thanks to the serving staff]]
-[[//&quot;I can&#39;t eat this&quot;//-&gt;&quot;I can&#39;t eat this&quot;]]</tw-passagedata><tw-passagedata pid="4" name="Start an argument" tags="diner" position="1900,500" size="100,100">[(goto: &quot;Claim that it&#39;s their fault&quot;)]</tw-passagedata><tw-passagedata pid="5" name="Pledge your thanks to the serving staff" tags="diner" position="2200,696" size="100,100">
-You finish your meal reluctantly and you go about to return your tray...
-(live:4s)[(goto: &quot;Trip over person&quot;)]</tw-passagedata><tw-passagedata pid="6" name="&quot;I can&#39;t eat this&quot;" tags="diner" position="2400,698" size="100,100">//&quot;Well that&#39;s your problem!&quot;//
+[[//&quot;I can&#39;t eat this&quot;//-&gt;&quot;I can&#39;t eat this&quot;]]</tw-passagedata><tw-passagedata pid="4" name="Start an argument" tags="diner" position="1900,500" size="100,100">[(goto: &quot;Claim that it&#39;s their fault&quot;)]</tw-passagedata><tw-passagedata pid="5" name="Pledge your thanks to the serving staff" tags="diner" position="2200,696" size="100,100">You finish your meal reluctantly and you go about to return your tray...
+[(goto: &quot;Trip over person&quot;)]</tw-passagedata><tw-passagedata pid="6" name="&quot;I can&#39;t eat this&quot;" tags="diner" position="2400,698" size="100,100">//&quot;Well that&#39;s your problem!&quot;//
 (live:4s)[(goto: &quot;Trip over person&quot;)]</tw-passagedata><tw-passagedata pid="7" name="Leave Diner" tags="diner" position="2100,900" size="100,100">
 You leave the diner, where do you want to go?
 
@@ -174,14 +176,14 @@ You accidentally trip over a fellow community members wingtip...
 [[Apologize-&gt;Apologize]]
 [[Cut off wings-&gt;Cut off wings]]</tw-passagedata><tw-passagedata pid="11" name="Cut off wings" tags="diner" position="1085,613" size="100,100">
 &quot;Security personnel enters the diner and a mexican standoff is initiated...&quot;
-(live: 3s)[&quot;Hands up wingless, our we&#39;ll shoot&quot;]
+(transition: &quot;fade&quot;)+(transition-delay:2s)[&quot;Hands up wingless, our we&#39;ll shoot&quot;]
 
 
 [[Surrender-&gt;Surrender]]
 [[Hope for the best-&gt;gameOver]]</tw-passagedata><tw-passagedata pid="12" name="Surrender" tags="prison" position="1298,900" size="100,100">
 You wake up beaten up in a prison cell...
 
-(live: 3s)[In the dark corner of the cell, there is a mysterious individual with a pelican beak looking at you...]
+(transition: &quot;fade&quot;)+(transition-delay: 1s)[In the dark corner of the cell, there is a mysterious individual with a pelican beak looking at you...]
 
 
 [[Approach the stranger-&gt;Approach the stranger]]
@@ -208,12 +210,13 @@ zzzzzzz....
 (live: 8s)[You wake up]
 (live:10s)[(goto: &quot;Guards enter&quot;)]</tw-passagedata><tw-passagedata pid="15" name="Approach the stranger" tags="prison" position="1200,1100" size="100,100">
 Stranger tells a story...
-(live:2s)[Story...]
-(live:4s)[Story...]
-(live:6s)[Someone is coming!!]
+(transition: &quot;fade&quot;)+(transition-delay: 1s)[Story...]
+(transition: &quot;fade&quot;)+(transition-delay: 4s)[Story.......]
+(transition: &quot;fade&quot;)+(transition-delay: 6s)[(You stopped paying attention a while ago)]
+(transition: &quot;fade&quot;)+(transition-delay: 8s)[Someone is coming!!]
 (live:10s)[(goto: &quot;Guards enter&quot;)]</tw-passagedata><tw-passagedata pid="16" name="Guards enter" tags="prison" position="1200,1295" size="100,100">
 Guards are entering the cell to remove the stranger who passes you a memory token....
-(live: 3s)[//You are released from custody awaiting judgment//]
+(transition: &quot;fade&quot;)+(transition-delay: 2s)[//You are released from custody awaiting judgment//]
 
 
 [[Bring token-&gt;default]]
@@ -227,40 +230,40 @@ Guards are entering the cell to remove the stranger who passes you a memory toke
 
 
 [[//I want to go home!//-&gt;Apartment]]
-[[//Let&#39;s go for a walk in the mall...//-&gt;Go to the mall]]</tw-passagedata><tw-passagedata pid="19" name="Call Henric" tags="default" position="1200,1700" size="100,100">
+[[//Let&#39;s go for a walk in the mall...//-&gt;Go to the mall]]</tw-passagedata><tw-passagedata pid="19" name="Call Henric" tags="default" position="1198,1700" size="100,100">
 Henric: //&quot;What&#39;s up Keith? I heard you got locked up?&quot;//
-(live:3s)[Keith: //&quot;Yes, had a small arument that got out of hand in the diner earlier today...&quot;//]
-(live:6s)[Henric: //&quot;Small argument? That dude ain&#39;t gonna fly anymore...&quot;//]
-(live:9s)[Keith: ...]
-(live:12s)[Henric: ...]
-(live:16s)[Keith: ...]
-(live:20s)[Keith: //&quot;Anyway, so I got realeased from custody just now and some strange person gave me a memory token... What should I do?&quot;//]
-(live:25s)[Henric: //&quot;Stay where you are, no go and hide somewhere. You do can&#39;t be found with that in your posseion...&quot;//]
-(live:30s)[Henric: //&quot;I&#39;ll come to you, wait there I&#39;ll be there in 10 minutes.&quot;//]
-(live:33s)[Keith: //&quot;OK, I&#39;ll wait.&quot;//]
-(live:36s)[(goto: &quot;Henric finds you&quot;)]</tw-passagedata><tw-passagedata pid="20" name="Get frisked" tags="gameOver" position="1000,1600" size="100,100">
+(transition: &quot;fade&quot;)+(transition-delay: 3s)[You: //&quot;Yes, had a small argument that got out of hand in the diner earlier today...&quot;//]
+(transition: &quot;fade&quot;)+(transition-delay: 6s)[Henric: //&quot;Small argument? That dude ain&#39;t gonna fly anymore...&quot;//]
+(transition: &quot;fade&quot;)+(transition-delay: 9s)[You: ...]
+(transition: &quot;fade&quot;)+(transition-delay: 12s)[Henric: ...]
+(transition: &quot;fade&quot;)+(transition-delay: 14s)[You: ...]
+(transition: &quot;fade&quot;)+(transition-delay: 15s)[You: //&quot;Anyway, so I got realeased from custody just now and some strange person gave me a memory token... What should I do?&quot;//]
+(transition: &quot;fade&quot;)+(transition-delay: 19s)[Henric: //&quot;Stay where you are, no, go and hide somewhere. You do can&#39;t be found with that in your posession...&quot;//]
+(transition: &quot;fade&quot;)+(transition-delay: 24s)[Henric: //&quot;I&#39;ll come to you, wait there. Give me 10 minutes.&quot;//]
+(transition: &quot;fade&quot;)+(transition-delay: 28s)[You: //&quot;OK, I&#39;ll wait.&quot;//]
+(live:34s)[(goto: &quot;Henric finds you&quot;)]</tw-passagedata><tw-passagedata pid="20" name="Get frisked" tags="gameOver" position="1000,1600" size="100,100">
 You get frisked by security personel and sent back to custody.
-(live:5s)[(goto: &quot;Surrender&quot;)]</tw-passagedata><tw-passagedata pid="21" name="Discard token (arrive at apartment)" tags="prison" position="1400,1500" size="100,100">
+(live:5s)[(goto: &quot;Surrender&quot;)]</tw-passagedata><tw-passagedata pid="21" name="Discard token (arrive at apartment)" tags="prison" position="1400,1498" size="100,100">
 You discard of the token and head home to your apartment.
 (live:3s)[(goto: &quot;Apartment&quot;)]</tw-passagedata><tw-passagedata pid="22" name="Henric finds you" tags="default" position="1200,1825" size="100,100">
-Henric finds you and you show the trinket...
+Henric finds you and you show the token...
 (live:5s)[(goto: &quot;Activate token&quot;)]</tw-passagedata><tw-passagedata pid="23" name="Activate token" tags="token" position="1801,1700" size="100,100">
-(live:2s)[(You accidently activated the memory token!!!)]
+(You accidently activated the memory token!!!)
 
-(live:5s)[//&quot;Finally,
+(transition: &quot;fade&quot;)+(transition-delay: 2s)[//&quot;Finally,
 I&#39;m let out of this thing! I&#39;ve been waiting for a thousand years for this day and I&#39;m very sad to say, I am the reason for all of this.//]
 
-(live:14s)[//I am Charles Modine.//]
-(live:16s)[//
+(transition: &quot;fade&quot;)+(transition-delay: 6s)[//I am Charles Modine.//]
+(transition: &quot;fade&quot;)+(transition-delay: 10s)[//
 A thousand years ago, I made it possible for people in Five to fly by providing them with special suits that would make them float in air without gravity. But they took my invention, twisted it and turned it into something atrocious.//]
 
-(live:27s)[//You see, humans are not supposed to have wings. Wings are for the birds.//]
+(transition: &quot;fade&quot;)+(transition-delay: 16s)[//You see, humans are not supposed to have wings. Wings are for the birds.//]
 
-(live:32s)[//I now realize coming here and sharing my knowledge and skill with them turned out to be the biggest mistake of my life.//]
+(transition: &quot;fade&quot;)+(transition-delay: 20s)[//I now realize coming here and sharing my knowledge and skill with them turned out to be the biggest mistake of my life.//]
 
-(live:37s)[//But you can help me correct this mistake.&quot;//]
+(transition: &quot;fade&quot;)+(transition-delay: 24s)[//But you can help me correct this mistake.&quot;//]
 
-(live:42s)[(goto: &quot;trustOrNot&quot;)]</tw-passagedata><tw-passagedata pid="24" name="Apartment" tags="home" position="2000,1100" size="100,100">
+(live:29s)[(goto: &quot;trustOrNot&quot;)]</tw-passagedata><tw-passagedata pid="24" name="Apartment" tags="home" position="2000,1100" size="100,100">
 Arrives to the apartment. //&quot;I am bored and annoyed. What should I do?&quot;//
 
 
@@ -277,15 +280,15 @@ Looking at clothes, but nothing fits your big legs and everything has holes for 
 [[Go home-&gt;Go home]]
 [[Ask cashier if they have anything for the flightless-&gt;Ask cashier]]</tw-passagedata><tw-passagedata pid="27" name="Speak to Henric" tags="default" position="2200,1300" size="100,100">
 Your friend Henric is a mechanic. He goes regularly searching for spare parts in debris zones around Five.
-(live:5s)[
+(transition: &quot;fade&quot;)+(transition-delay:5s)[
 He reveals that he found something interesting that he wishes you to see.]
-(live:8s)[Henric: //&quot;Follow me into this alley...&quot;//]
-(live:12s)[
+(transition: &quot;fade&quot;)+(transition-delay:8s)[Henric: //&quot;Follow me into this alley...&quot;//]
+(transition: &quot;fade&quot;)+(transition-delay:12s)[
 Henric reaches for his pockets and brings out a small object. You look close, it looks like a button.]
-(live:18s)[Henric: //&quot;I found this and tried attaching it...&quot;//]
-(live:22s)[
+(transition: &quot;fade&quot;)+(transition-delay:18s)[Henric: //&quot;I found this and tried attaching it...&quot;//]
+(transition: &quot;fade&quot;)+(transition-delay:22s)[
 Henric points to his shirt missing one button.]
-(live:25s)[
+(transition: &quot;fade&quot;)+(transition-delay:25s)[
 Henric: //&quot;But then it got warm! Take a look at it...&quot;//]
 
 [[Take a look!-&gt;Activate token]]</tw-passagedata><tw-passagedata pid="28" name="Go home" tags="mall" position="2200,1100" size="100,100">
@@ -341,27 +344,27 @@ Cashier gets angry!!
 [[Surrender-&gt;Surrender]]
 [[Hope for the best-&gt;gameOver]]</tw-passagedata><tw-passagedata pid="36" name="Trust Modine" tags="token" position="1900,1900" size="100,100">
 [//&quot;The first thing you need to do is to break into the secret archives in the basement of the Central Building. There, you will find a collection of the original flying suits I designed that the government kept for reference.//]
-(live:10s)[//
+(transition: &quot;fade&quot;)+(transition-delay:10s)[//
 Take one and put it on. Don&#39;t worry about not knowing how to fly, with your functional limbs it will come naturally.//]
-(live:16s)[//
+(transition: &quot;fade&quot;)+(transition-delay:16s)[//
 Armed with the flying suit, you shall cut off all the Flyers&#39; wings. It&#39;s the only way to restore the order in Five. The suit will help you reach them if they try to fly away...&quot;//]
-(live:25s)[(goto: &quot;Break in take suit&quot;)]</tw-passagedata><tw-passagedata pid="37" name="Don&#39;t trust Modine" tags="token" position="2100,1898" size="100,100">
+(live:32s)[(goto: &quot;Break in take suit&quot;)]</tw-passagedata><tw-passagedata pid="37" name="Don&#39;t trust Modine" tags="token" position="2100,1898" size="100,100">
 You took the trinket with you and you decide to sell it. 
 
 You then use the money to buy a pair of Fly-o-matics, a pair of ready-made wings you saw on an ad in the newspaper. You don&#39;t know if they work or not, but hey! You are committed to fly at any cost.
 
-(live:20s)[[Get me those Fly-o-matics!-&gt;Get me those Fly-o-matics!]]</tw-passagedata><tw-passagedata pid="38" name="Wake up" tags="default fade-in" position="2100,300" size="100,100">
+(live:20s)[[Get me those Fly-o-matics!-&gt;Get me those Fly-o-matics!]]</tw-passagedata><tw-passagedata pid="38" name="Wake up" tags="default yawn" position="2100,300" size="100,100">
 The back hurts. Eye lids are heavy. Five hours in this thin bunk bed is more sleep than yesterday at least.
-(live:5s)[(transition:&quot;fade&quot;)[You put your glasses on and your eyes slowly focuses on a painting of a grey man, right under the ceiling. A small lamp is pointed to a metal name sign under the painting.]]
-(live:14s)[
+You put your glasses on and your eyes slowly focuses on a painting of a grey man, right under the ceiling. A small lamp is pointed to a metal name sign under the painting.
+(transition:&quot;fade&quot;) + (transition-delay: 5s)[
 //&quot;Charles Modine&quot;.//]
-(live:17s)[
+(transition:&quot;fade&quot;) + (transition-delay: 6s)[
 The alarm on the wall gives a deafening sound. It&#39;s time for breakfast in the communal dining room.]
 
 
 [[Sit at table 1-&gt;Sit at table 1]]
 [[Sit at table 2-&gt;Sit at table 2]]</tw-passagedata><tw-passagedata pid="39" name="trustOrNot" tags="token" position="2000,1700" size="100,100">
-(You accidently activate the memory token)
+(live:0.1s)[(You accidently activate the memory token)
 
 //Finally,
 I&#39;m let out of this thing! I&#39;ve been waiting for a thousand years for this day and I&#39;m very sad to say, I am the reason for all of this.//
@@ -374,7 +377,7 @@ A thousand years ago, I made it possible for people in Five to fly by providing 
 
 //I now I realize coming here and sharing my knowledge and skill with them turned out to the biggest mistake of my life.//
 
-//But you can help me correct this mistake.&quot;//
+//But you can help me correct this mistake.&quot;//]
 
 
 [[Trust Modine-&gt;Trust Modine]]
@@ -433,7 +436,7 @@ The original suit was sealed in the Main Building. The only way to get it is to 
 [[Get the suit-&gt;Break in take suit]]</tw-passagedata><tw-passagedata pid="45" name="Break in take suit" tags="default" position="1900,2100" size="100,100">
 You break into the building and do what Modine said. 
 
-(live:4s)[//(Your friend Henric has worked as a janitor there and told you how to do it, obviously...)//]
+(transition: &quot;fade&quot;)+(transition-delay:4s)[//(Your friend Henric has worked as a janitor there and told you how to do it, obviously...)//]
 
 (live:8s)[GUARDS!]
 
@@ -449,26 +452,25 @@ GUARDS!
 [[You don&#39;t want to go back to prison, so you turn the suit in-&gt;You don&#39;t want to go back to prison, so you turn the suit in]]</tw-passagedata><tw-passagedata pid="47" name="Put on the suit and attempt to fly away" tags="default" position="1500,2300" size="100,100">
 Armed with the stolen flying suit, you gather the Flightless at your block and invite them to rebel. You do a demonstration with the suit and explain how easy it is to fly.
 
-(live:5s)[A group of 30 flightless people are now lined up next to each other. The crowd is getting louder and louder, from a small mumble to a rumbling crowd.]
+(transition: &quot;fade&quot;)+(transition-delay:5s)[A group of 30 flightless people are now lined up next to each other. The crowd is getting louder and louder, from a small mumble to a rumbling crowd.]
 
-(live:9s)[//&quot;Is this it?&quot;// someone says. //&quot;Is it this easy to fly? Anyone can do it then!&quot;//]
+(transition: &quot;fade&quot;)+(transition-delay:10s)[//&quot;Is this it?&quot;// someone says. //&quot;Is it this easy to fly? Anyone can do it then!&quot;//]
 
-(live:13s)[//&quot;One thousand years of inequality, because of this?&quot;// someone else yells.]
+(transition: &quot;fade&quot;)+(transition-delay:13s)[//&quot;One thousand years of inequality, because of this?&quot;// someone else yells.]
 
-(live:17s)[//&quot;Let&#39;s take back what should have been ours from the beginning&quot;//, you say.]
+(transition: &quot;fade&quot;)+(transition-delay:17s)[//&quot;Let&#39;s take back what should have been ours from the beginning&quot;//, you say.]
 
-(live:22s)[//&quot;Let us take them down! Let&#39;s cut off their wings!&quot;// someone screams from the crowd.]
+(transition: &quot;fade&quot;)+(transition-delay:22s)[//&quot;Let us take them down! Let&#39;s cut off their wings!&quot;// someone screams from the crowd.]
 
 
 [[Join the massacre-&gt;Join the massacre]]
 [[Fly away-&gt;Fly away]]</tw-passagedata><tw-passagedata pid="48" name="You don&#39;t want to go back to prison, so you turn the suit in" tags="default" position="1701,2300" size="100,100">
 You are too dangerous to be left alive in Five.
-(live:5s)[(goto: &quot;gameOver&quot;)]</tw-passagedata><tw-passagedata pid="49" name="Start" tags="default" position="2101,100" size="100,100">
+(live:5s)[(goto: &quot;gameOver&quot;)]</tw-passagedata><tw-passagedata pid="49" name="Start" tags="default" position="2102,98" size="100,100">
 1 000 years ago, the fashion designer Charles Modine found a way to help people fly.
-(live:1s)[Little did he know, he would change the world forever...]
+(transition:&quot;fade&quot;)+(transition-delay: 2.5s)[Little did he know, he would change the world forever...]
 
-
-[[Wake up-&gt;Wake up]]</tw-passagedata><tw-passagedata pid="50" name="Credits" tags="space" position="1500,100" size="100,100">&lt;p style=&quot;
+|wakeup&gt;[[[Wake up-&gt;Wake up]]]</tw-passagedata><tw-passagedata pid="50" name="Credits" tags="space" position="1500,100" size="100,100">&lt;p style=&quot;
 text-align: center;
 font-size: 2em;
 color: light-blue;
@@ -477,7 +479,7 @@ color: light-blue;
 &lt;p style=&quot;text-align: center;
 ;&quot;&gt;//This text-based game was designed and built as part of the Playful Interaction Course at Malmö University.//
 
-Names, Names, Names, Names, Names
+Priscilla Silva, Samuel Nyberg, Ivar Lundin, Mahroo Salimi, Chloe Mosselmans Ismaily
 
 January 2021&lt;p&gt;
 
@@ -485,25 +487,25 @@ January 2021&lt;p&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="51" name="Fly away" tags="" position="1601,2498" size="100,100">
 Starting a war wasn&#39;t the reason you opened the trinket. Freedom was the reason.
 
-(live:3s)[Seemingly light as a bird, you start flying. Away from the massive slaughter, away from this crazy world you&#39;ve been trapped in. You aim for the edge of the world, or at least the edge of Five.]
+(transition: &quot;fade&quot;)+(transition-delay:3s)[Seamingly light as a bird, you start flying. Away from the massive slaughter, away from this crazy world you&#39;ve been trapped in. You aim for the edge of the world, or at least the edge of Five.]
 
-(live:9s)[You fly higher and higher, until you see the end. The round, massive metal door. A sign on it says &quot;emergency exit&quot;.]
+(transition: &quot;fade&quot;)+(transition-delay:9s)[You fly higher and higher, until you see the end. The round, massive metal door. A sign on it says &quot;emergency exit&quot;.]
 
-(live:14s)[The handle is rusty. The maintenance department hasn&#39;t done their job.]
+(transition: &quot;fade&quot;)+(transition-delay:14s)[The handle is rusty. The maintenance department hasn&#39;t done their job.]
 
-(live:18s)[You push the handle down, but not even halfway, the door flung open. Water flows in. Ice cold water starts filling Five with a worrying speed. What is this? No one told you you were living in an empty bowl.]
+(transition: &quot;fade&quot;)+(transition-delay:18s)[You push the handle down, but not even halfway, the door flung open. Water flows in. Ice cold water starts filling Five with a worrying speed. What is this? No one told you you were living in an empty bowl.]
 
-(live:25s)[In one afternoon, Five was filled with water. 1 000 years of flying, but no one knew how to swim.]
+(transition: &quot;fade&quot;)+(transition-delay:25s)[In one afternoon, Five was filled with water. 1 000 years of flying, but no one knew how to swim.]
 
 
 [[This was the end of Five.-&gt;gameOver2]] </tw-passagedata><tw-passagedata pid="52" name="Join the massacre" tags="default" position="1400,2498" size="100,100">
 Suddenly you hear slashes from behind. Someone from the crowd caught a flyer, and started chopping his wings off.
 
-(live:4s)[The raging crows of the flightless is turning into a blood bath. The flightless soon found a method using their strong legs to kick down the flyers, and then chop their wings off.]
+(transition: &quot;fade&quot;)+(transition-delay:4s)[The raging crows of the flightless is turning into a blood bath. The flightless soon found a method using their strong legs to kick down the flyers, and then chop their wings off.]
 
-(live:10s)[The hunt continued the rest of the day. Wing after wing, limb after limb.]
+(transition: &quot;fade&quot;)+(transition-delay:10s)[The hunt continued the rest of the day. Wing after wing, limb after limb.]
 
-(live:14s)[In one afternoon, one thousand years of evolution was eradicated.]
+(transition: &quot;fade&quot;)+(transition-delay:14s)[In one afternoon, one thousand years of evolution was eradicated.]
 
 
 [[The flyers turned into flightless, and suddenly, all was equal.-&gt;gameOver2]]</tw-passagedata><tw-passagedata pid="53" name="gameOver2" tags="default" position="1200,303" size="100,100">&lt;p style=&quot;
@@ -520,20 +522,20 @@ text-align: center;&quot;&gt;&lt;p&gt;
 &lt;div style=&quot;text-align: center;&quot;&gt;
 [[&lt;a style=&quot;text-align: center !important;&quot;&gt;Play again&lt;/a&gt;-&gt;Start]]
 [[&lt;a style=&quot;text-align: center !important;&quot;&gt;Main Menu&lt;/a&gt;-&gt;Landing]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="54" name="Get me those Fly-o-matics!" tags="default" position="1800,2500" size="100,100">
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="54" name="Get me those Fly-o-matics!" tags="default" position="1800,2498" size="100,100">
 You put on the Fly-o-matics and start jumping and flapping. You can feel your feet lift from the ground, slowly first, then faster and faster you leave the ground.
 
-(live:4s)[&quot;That&#39;s a flightless!&quot; someone says.]
+(transition: &quot;fade&quot;)+(transition-delay:4s)[&quot;That&#39;s a flightless!&quot; someone says.]
 
-(live:5s)[&quot;Hey you! What do you think you&#39;re doing!? Flightless are not supposed to fly!&quot;]
+(transition: &quot;fade&quot;)+(transition-delay:8s)[&quot;Hey you! What do you think you&#39;re doing!? Flightless are not supposed to fly!&quot;]
 
-(live:7s)[You&#39;re heart is racing. You flap faster and faster, and finally you see the emergency exit. You will not spend another day on Five.]
+(transition: &quot;fade&quot;)+(transition-delay: 12s)[You&#39;re heart is racing. You flap faster and faster, and finally you see the emergency exit. You will not spend another day on Five.]
 
-(live:9s)[You open the door, and suddenly you&#39;re sucked out into space. You start flapping your wings again, but moving in space is not the same thing. It&#39;s hard to steer with your newly found wings. And where are you heading? You aim for the big yellow ball, people on Five said it provided the space station with energy, maybe you can go there.]
+(transition: &quot;fade&quot;)+(transition-delay:17s)[You open the door, and suddenly you&#39;re sucked out into space. You start flapping your wings again, but moving in space is not the same thing. It&#39;s hard to steer with your newly found wings. And where are you heading? You aim for the big yellow ball, people on Five said it provided the space station with energy, maybe you can go there.]
 
-(live:14s)[But it gets warm, way too quickly. Something that smells like burnt plastic hits your nostrils. Why does it feel like you&#39;re loosing speed? Why is the sun getting closer? And the burning heat surely is worrying.]
+(transition: &quot;fade&quot;)+(transition-delay:27s)[But it gets warm, way too quickly. Something that smells like burnt plastic hits your nostrils. Why does it feel like you&#39;re loosing speed? Why is the sun getting closer? And the burning heat surely is worrying.]
 
-(live:18s)[You&#39;re sweating, and all your flapping doesn&#39;t take you anywhere. The wings are coming loose, and suddenly you&#39;re falling. The heat is unbearable, the light is burning your eyes.]
+(transition: &quot;fade&quot;)+(transition-delay:35s)[You&#39;re sweating, and all your flapping doesn&#39;t take you anywhere. The wings are coming loose, and suddenly you&#39;re falling. The heat is unbearable, the light is burning your eyes.]
 
 
 [[The incandescent light of the sun consumes your body and you&#39;re gone!-&gt;gameOver2]]</tw-passagedata></tw-storydata>
