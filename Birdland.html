@@ -37,7 +37,7 @@ tw-link:hover
 
 tw-sidebar
 {
-	display: none;
+	display: inline;
 }
 /*Remove the input field thing...*/
 textarea, input { 
@@ -59,9 +59,65 @@ tw-story[tags~="space"]  {
 
 }
 
-tw-link[tags~="space"]  {
-  color: green;
+tw-story[tags~="diner"]  {
+	/*
+  background-image: url("");
+  
+  background-repeat: no-repeat;
+  background-size: 100vw; 
 
+  color: white;
+  */
+}
+tw-story[tags~="prison"]  {
+	/*
+  background-image: url("");
+  
+  background-repeat: no-repeat;
+  background-size: 100vw; 
+
+  color: white;
+  */
+}
+tw-story[tags~="mall"]  {
+	/*
+  background-image: url("");
+  
+  background-repeat: no-repeat;
+  background-size: 100vw; 
+
+  color: white;
+  */
+}
+tw-story[tags~="home"]  {
+	/*
+  background-image: url("");
+  
+  background-repeat: no-repeat;
+  background-size: 100vw; 
+
+  color: white;
+  */
+}
+tw-story[tags~="token"]  {
+	/*
+  background-image: url("");
+  
+  background-repeat: no-repeat;
+  background-size: 100vw; 
+
+  color: white;
+  */
+}
+tw-story[tags~="journal"]  {
+	/*
+  background-image: url("");
+  
+  background-repeat: no-repeat;
+  background-size: 100vw; 
+
+  color: white;
+  */
 }
 
 
@@ -91,45 +147,75 @@ function turnOffAudio() {
 	audio.stop();
 }
 
-window.get</script><tw-passagedata pid="1" name="Start" tags="space" position="1973,220" size="100,100">You wake up in the morning, get dressed and go to the communal dining room.
+window.get</script><tw-passagedata pid="1" name="Landing" tags="space" position="1637.6666666666667,39.66666666666665" size="100,100">&lt;p style=&quot;
+text-align: center;
+font-size: 2.5em;
+color: light-blue;
 
-[[Sit at table 1-&gt;Sit at table 1]]
-[[Sit at table 2-&gt;Sit at table 2]]</tw-passagedata><tw-passagedata pid="2" name="Sit at table 1" tags="" position="1914,410" size="100,100">You can&#39;t sit here, you have no wings... (or &quot;flightless cannot sit here&quot;)
+;&quot;&gt;BIRDLAND ™&lt;p&gt;
+
+&lt;p style=&quot;
+text-align: center;
+
+;&quot;&gt;//In a world where everyone has wings, can you lead the uprising?//&lt;p&gt;
+
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+[[&lt;a style=&quot;text-align: center !important;&quot;&gt;Start&lt;/a&gt;-&gt;Start]]
+
+[[&lt;a style=&quot;text-align: center !important;&quot;&gt;Credits&lt;/a&gt;-&gt;Credits]]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="Sit at table 1" tags="diner" position="1904,411" size="100,100">Hey! The flightless can&#39;t sit here, you have no wings!
 [[Start an argument-&gt;Start an argument]]
-[[Sit at table 2 instead-&gt;Sit at table 2]]</tw-passagedata><tw-passagedata pid="3" name="Sit at table 2" tags="" position="2072,412" size="100,100">You get served a meal of bird-seeds
+[[Sit at table 2 instead-&gt;Sit at table 2]]</tw-passagedata><tw-passagedata pid="3" name="Sit at table 2" tags="diner" position="2068,406" size="100,100">You get served a meal of bird-seeds...
 [[Pledge your thanks to the serving staff-&gt;Pledge your thanks to the serving staff]]
-[[&quot;I can&#39;t eat this&quot;-&gt;&quot;I can&#39;t eat this&quot;]]</tw-passagedata><tw-passagedata pid="4" name="Start an argument" tags="" position="1752,410" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="5" name="Pledge your thanks to the serving staff" tags="" position="2015,618" size="100,100">You finish your meal reluctantly and you go about to return your tray...
-(live:2s)[(goto: &quot;Leave Diner&quot;)]</tw-passagedata><tw-passagedata pid="6" name="&quot;I can&#39;t eat this&quot;" tags="" position="2125,622" size="100,100">&quot;Well that&#39;s your problem&quot;
-(live:2s)[(goto: &quot;Leave Diner&quot;)]</tw-passagedata><tw-passagedata pid="7" name="Leave Diner" tags="" position="2067,759" size="100,100">You leave the diner, where do you want to go?
+[[&quot;I can&#39;t eat this&quot;-&gt;&quot;I can&#39;t eat this&quot;]]</tw-passagedata><tw-passagedata pid="4" name="Start an argument" tags="diner" position="1752,410" size="100,100">[(goto: &quot;Claim that it&#39;s their fault&quot;)]</tw-passagedata><tw-passagedata pid="5" name="Pledge your thanks to the serving staff" tags="diner" position="2015,619" size="100,100">You finish your meal reluctantly and you go about to return your tray...
+(live:2s)[(goto: &quot;Leave Diner&quot;)]</tw-passagedata><tw-passagedata pid="6" name="&quot;I can&#39;t eat this&quot;" tags="diner" position="2126,620" size="100,100">&quot;Well that&#39;s your problem&quot;
+(live:2s)[(goto: &quot;Leave Diner&quot;)]</tw-passagedata><tw-passagedata pid="7" name="Leave Diner" tags="diner" position="2065,757" size="100,100">You leave the diner, where do you want to go?
 [[Go to apartment-&gt;Apartment]]
-[[Go for a walk in the mall-&gt;Go to the mall]]</tw-passagedata><tw-passagedata pid="8" name="Trip over person" tags="" position="1838,582" size="100,100">You accidentally trip over a fellow community members wingtip...
+[[Go for a walk in the mall-&gt;Go to the mall]]</tw-passagedata><tw-passagedata pid="8" name="Trip over person" tags="diner" position="1838,580" size="100,100">You accidentally trip over a fellow community members wingtip...
 [[Apologize-&gt;Apologize]]
-[[Claim that it&#39;s their fault-&gt;Claim that it&#39;s their fault]]</tw-passagedata><tw-passagedata pid="9" name="Apologize" tags="" position="1934,749" size="100,100">&quot;Apology accepted, watch where you&#39;re going in the future...&quot;
-(live:5s)[(goto: &quot;Leave Diner&quot;)]</tw-passagedata><tw-passagedata pid="10" name="Claim that it&#39;s their fault" tags="" position="1398,745" size="100,100">&quot;You said what? I would think twice if I were you...&quot;
+[[Claim that it&#39;s their fault-&gt;Claim that it&#39;s their fault]]</tw-passagedata><tw-passagedata pid="9" name="Apologize" tags="diner" position="1934,749" size="100,100">&quot;Apology accepted, watch where you&#39;re going in the future...&quot;
+(live:5s)[(goto: &quot;Leave Diner&quot;)]</tw-passagedata><tw-passagedata pid="10" name="Claim that it&#39;s their fault" tags="diner" position="1399,745" size="100,100">&quot;You said what? I would think twice if I were you...&quot;
 [[Apologize-&gt;Apologize]]
-[[Cut off wings-&gt;Cut off wings]]</tw-passagedata><tw-passagedata pid="11" name="Cut off wings" tags="" position="1274,749" size="100,100">&quot;Security personel enters the diner and a mexican standoff is initiated&quot;
+[[Cut off wings-&gt;Cut off wings]]</tw-passagedata><tw-passagedata pid="11" name="Cut off wings" tags="diner" position="1274,747" size="100,100">&quot;Security personel enters the diner and a mexican standoff is initiated&quot;
 (live: 3s)[&quot;Hands up wingless, our we&#39;ll shoot&quot;]
 [[Surrender-&gt;Surrender]]
-[[Hope for the best-&gt;Hope for the best]]</tw-passagedata><tw-passagedata pid="12" name="Surrender" tags="" position="1260,910" size="100,100">You wake up beaten up in a prison cell...
+[[Hope for the best-&gt;gameOver]]</tw-passagedata><tw-passagedata pid="12" name="Surrender" tags="prison" position="1260,910" size="100,100">You wake up beaten up in a prison cell...
 
 (live: 2s)[In the dark corner of the cell there is a mysterious individual with a pelican beak looking at you...]
 [[Approach the stranger-&gt;Approach the stranger]]
-[[Go to sleep-&gt;Go to sleep]]</tw-passagedata><tw-passagedata pid="13" name="Hope for the best" tags="" position="1121,749" size="100,100">Game over.</tw-passagedata><tw-passagedata pid="14" name="Go to sleep" tags="" position="1276,1054" size="100,100">zzzzzzz....
+[[Go to sleep-&gt;Go to sleep]]</tw-passagedata><tw-passagedata pid="13" name="gameOver" tags="gameOver" position="1239.3333333333333,299" size="100,100">&lt;p style=&quot;
+text-align: center;
+font-size: 2.5em;
+color: red;
+
+;&quot;&gt;GAME OVER.&lt;hp&gt;
+
+&lt;p style=&quot;
+text-align: center;
+
+;&quot;&gt;You tried, but you failed. Do you want to try again?&lt;p&gt;
+
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+[[&lt;a style=&quot;text-align: center !important;&quot;&gt;Play again&lt;/a&gt;-&gt;Start]]
+[[&lt;a style=&quot;text-align: center !important;&quot;&gt;Main Menu&lt;/a&gt;-&gt;Landing]]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="14" name="Go to sleep" tags="" position="1276,1054" size="100,100">zzzzzzz....
 (live: 2s)[.....zzzzzzz....&quot;]
 (live: 4s)[zzzzz....]
 (live: 8s)[You wake up]
-(live:10s)[(goto: &quot;Guards enter&quot;)]</tw-passagedata><tw-passagedata pid="15" name="Approach the stranger" tags="" position="1161,1056" size="100,100">Stranger tells a story...
+(live:10s)[(goto: &quot;Guards enter&quot;)]</tw-passagedata><tw-passagedata pid="15" name="Approach the stranger" tags="prison" position="1161,1056" size="100,100">Stranger tells a story...
 (live:2s)[Story...]
 (live:4s)[Story...]
 (live:6s)[Someone is coming!!]
-(live:10s)[(goto: &quot;Guards enter&quot;)]</tw-passagedata><tw-passagedata pid="16" name="Guards enter" tags="" position="1246,1176" size="100,100">Guards are entering the cell to remove the stranger who passes you a memory token....
+(live:10s)[(goto: &quot;Guards enter&quot;)]</tw-passagedata><tw-passagedata pid="16" name="Guards enter" tags="prison" position="1246,1176" size="100,100">Guards are entering the cell to remove the stranger who passes you a memory token....
 (live: 3s)[You are released from custody awaiting judgment]
 [[Bring token-&gt;Bring token]]
-[[Leave token-&gt;Leave token]]</tw-passagedata><tw-passagedata pid="17" name="Bring token" tags="" position="1171,1326" size="100,100">You now are in possesion of illegal goods, what do you want do?
+[[Leave token-&gt;Leave token]]</tw-passagedata><tw-passagedata pid="17" name="Bring token" tags="prison" position="1171,1326" size="100,100">You now are in possesion of illegal goods, what do you want do?
 [[Call your best friend Henricand ask for advice-&gt;Call Henric]]
 [[Go home to apartment-&gt;Get frisked]]
 [[Discard token-&gt;Discard token (arrive at apartment)]]</tw-passagedata><tw-passagedata pid="18" name="Leave token" tags="" position="1379,1236" size="100,100">Leave the token
-- Dead end</tw-passagedata><tw-passagedata pid="19" name="Call Henric" tags="" position="1153,1555.6666666666667" size="100,100">Henric: What&#39;s up Keith? I heard you got locked up?
+- Dead end</tw-passagedata><tw-passagedata pid="19" name="Call Henric" tags="default" position="1153,1555" size="100,100">Henric: What&#39;s up Keith? I heard you got locked up?
 (live:3s)[Keith: Yes, had a small arument that got out of hand in the diner earlier today...]
 (live:6s)[Henric: Small argument? That dude ain&#39;t gonna fly anymore...]
 (live:9s)[Keith: ...]
@@ -139,19 +225,17 @@ window.get</script><tw-passagedata pid="1" name="Start" tags="space" position="1
 (live:25s)[Henric: Stay where you are, no go and hide somewhere. You do can&#39;t be found with that in your posseion...]
 (live:30s)[Henric: I&#39;ll come to you, wait there I&#39;ll be there in 10 minutes.]
 (live:33s)[Keith: OK, I&#39;ll wait.]
-(live:36s)[(goto: &quot;Henric finds you&quot;)]</tw-passagedata><tw-passagedata pid="20" name="Get frisked" tags="" position="987.3333333333334,1481.3333333333333" size="100,100">You get frisked by security personel and sent back to custody.
-- Dead end</tw-passagedata><tw-passagedata pid="21" name="Discard token (arrive at apartment)" tags="" position="1312.3333333333333,1485" size="100,100">You discard of the token and head home to your apartment.
-(live:3s)[(goto: &quot;Apartment&quot;)]</tw-passagedata><tw-passagedata pid="22" name="Henric finds you" tags="" position="1151,1664" size="100,100">Henric finds you and you show the trinket...
-(live:5s)[(goto: &quot;Activate token&quot;)]</tw-passagedata><tw-passagedata pid="23" name="Activate token" tags="" position="1951,1259" size="100,100">(You accidently activate the memory token)
+(live:36s)[(goto: &quot;Henric finds you&quot;)]</tw-passagedata><tw-passagedata pid="20" name="Get frisked" tags="gameOver" position="987,1481" size="100,100">You get frisked by security personel and sent back to custody.
+- Dead end</tw-passagedata><tw-passagedata pid="21" name="Discard token (arrive at apartment)" tags="prison" position="1313,1485" size="100,100">You discard of the token and head home to your apartment.
+(live:3s)[(goto: &quot;Apartment&quot;)]</tw-passagedata><tw-passagedata pid="22" name="Henric finds you" tags="default" position="1151,1664" size="100,100">Henric finds you and you show the trinket...
+(live:5s)[(goto: &quot;Activate token&quot;)]</tw-passagedata><tw-passagedata pid="23" name="Activate token" tags="token" position="1902.6666666666665,1522.3333333333333" size="100,100">(You accidently activate the memory token)
 
 (live:3s)[//Finally,
-I&#39;m let out of this thing! I&#39;ve been waiting for a thousand years for this day and
-and I&#39;m very sad to say, I am the reason for all of this.//]
+I&#39;m let out of this thing! I&#39;ve been waiting for a thousand years for this day and I&#39;m very sad to say, I am the reason for all of this.//]
 
 (live:12s)[//I am Charles Modine.//]
-(live:15s)[*dramatic music*]
 (live:16s)[//
-&quot;A thousand years ago, I made it possible for people in Five to fly by providing them with special suits that would make them float in air without gravity. But they took my invention, twisted it and turned it into something atrocious.//]
+A thousand years ago, I made it possible for people in Five to fly by providing them with special suits that would make them float in air without gravity. But they took my invention, twisted it and turned it into something atrocious.//]
 
 (live:26s)[//You see, humans are not supposed to have wings. Wings are for the birds.//]
 
@@ -159,34 +243,33 @@ and I&#39;m very sad to say, I am the reason for all of this.//]
 
 (live:37s)[//But you can help me correct this mistake.&quot;//]
 
-(after:37s)[[Trust Modine-&gt;Trust Modine]]
-(after:37s)[[&lt;a style=&quot;color: #e32619;&quot;&#39;&gt;Don&#39;t trust Modine&lt;/a&gt;-&gt;Don&#39;t trust Modine]]</tw-passagedata><tw-passagedata pid="24" name="Apartment" tags="" position="2000,899" size="100,100">Arrives to the apartment. I am bored and annoyed. What should I do?
+(live:41s)[(goto: &quot;trustOrNot&quot;)]</tw-passagedata><tw-passagedata pid="24" name="Apartment" tags="home" position="2000,899" size="100,100">Arrives to the apartment. I am bored and annoyed. What should I do?
 [[Go into to your home office and read your past journal entries-&gt;Home office]]
 [[Call your best-friend Henric-&gt;Speak to Henric]]
-</tw-passagedata><tw-passagedata pid="25" name="Home office" tags="" position="1864,1034" size="100,100">&#39;&#39;Home office&#39;&#39;
+</tw-passagedata><tw-passagedata pid="25" name="Home office" tags="home" position="1864,1034" size="100,100">&#39;&#39;Home office&#39;&#39;
 [[Read journal entries-&gt;Read entries]]
-[[Go back to living room-&gt;Living room]]</tw-passagedata><tw-passagedata pid="26" name="Go to the mall" tags="" position="2305,822" size="100,100">Looking at clothes, but nothing fits your big legs och everything has holes for wings.
+[[Go back to living room-&gt;Living room]]</tw-passagedata><tw-passagedata pid="26" name="Go to the mall" tags="mall" position="2305,822" size="100,100">Looking at clothes, but nothing fits your big legs och everything has holes for wings.
 [[Go home to apartment again-&gt;Go home]]
-[[Ask cashier if they have anything for the flightless-&gt;Ask cashier]]</tw-passagedata><tw-passagedata pid="27" name="Speak to Henric" tags="" position="2191,1002" size="100,100">Your friend Henric is a mechanic. He goes regularly searching for spare parts in debris zones around Five.
-(live:3s)[He reveals that he found something interesting that he wishes you to see.]
-(live:6s)[Henric: Follow me into this alley...]
-(live:9s)[Keith: What is that?]
-(live:12s)[Henric: It&#39;s a memory token, from the early days...]
-(live:15s)[Keith: Wow, can I hold it?]
-(live:17s)[Henric: Sure.]
-(live:19s)[Henric hands you the memory token.]
-(live:21s)[(goto: &quot;Activate token&quot;)]</tw-passagedata><tw-passagedata pid="28" name="Go home" tags="" position="2194,895" size="100,100">On your way home to your apartment you bump into your best friend Henric.
-(live:3s)[(goto: &quot;Speak to Henric&quot;)]</tw-passagedata><tw-passagedata pid="29" name="Ask cashier" tags="" position="2397,955" size="100,100">Cashier frowns and says in a sharp tone,
+[[Ask cashier if they have anything for the flightless-&gt;Ask cashier]]</tw-passagedata><tw-passagedata pid="27" name="Speak to Henric" tags="" position="2159.333333333333,1245.3333333333335" size="100,100">Your friend Henric is a mechanic. He goes regularly searching for spare parts in debris zones around Five.
+(live:5s)[He reveals that he found something interesting that he wishes you to see.]
+(live:8s)[Henric: Follow me into this alley...]
+(live:12s)[Henric reaches for his pockets and brings up a small object. You look close, it looks like a small button.]
+(live:18s)[Henric: I found this and tried attaching it]
+(live:22s)[(Henric points to his shirt missing one button)]
+(live:25s)[Henric: But then it got warm. Take a look at it]
+
+(live:27s)[(goto: &quot;Take a look&quot;)]</tw-passagedata><tw-passagedata pid="28" name="Go home" tags="mall" position="2194,895" size="100,100">On your way home to your apartment you bump into your best friend Henric.
+(live:3s)[(goto: &quot;Speak to Henric&quot;)]</tw-passagedata><tw-passagedata pid="29" name="Ask cashier" tags="mall" position="2395,952" size="100,100">Cashier frowns and says in a sharp tone:
 &quot;We have a section for the flightless. If it doesn&#39;t suit you, you may leave.&quot;
 [[Ignore comment and go home-&gt;Go home]]
-[[&quot;But nothing fits me. This is unfair, I&#39;ve worn the same clothes for three years.&quot;-&gt;Argument Cashier]]</tw-passagedata><tw-passagedata pid="30" name="Read entries" tags="" position="1663,1025" size="100,100">&#39;&#39;Journal&#39;&#39;
+[[&quot;But nothing fits me. This is unfair, I&#39;ve worn the same clothes for three years!&quot;-&gt;Argument Cashier]]</tw-passagedata><tw-passagedata pid="30" name="Read entries" tags="journal" position="1663,1025" size="100,100">&#39;&#39;Journal&#39;&#39;
 [[Read entry #1-&gt;Read entry #1]]
 [[Read entry #2-&gt;Read entry #2]]
 
-[[Go back to office-&gt;Home office]]</tw-passagedata><tw-passagedata pid="31" name="Living room" tags="" position="2008,1035" size="100,100">&#39;&#39;Living room&#39;&#39;
+[[Go back to office-&gt;Home office]]</tw-passagedata><tw-passagedata pid="31" name="Living room" tags="home" position="2014.6666666666667,1046.6666666666667" size="100,100">&#39;&#39;Living room&#39;&#39;
 [[Go into to your home office again-&gt;Home office]]
 [[Call your best-friend Henric-&gt;Speak to Henric]]
-</tw-passagedata><tw-passagedata pid="32" name="Read entry #1" tags="" position="1570,1167" size="100,100">//Entry #1 - June 27th. 2XXX (yesterday)
+</tw-passagedata><tw-passagedata pid="32" name="Read entry #1" tags="journal" position="1570,1167" size="100,100">//Entry #1 - June 27th. 2XXX (yesterday)
 
 Today I went to meet a friend.
 We decided to go for coffee.
@@ -194,18 +277,141 @@ In the middle of our conversation, a group of flyers passing by purposefully sla
 Also, my stomach cannot take eating these seeds all the time...
 //
 [[Read entry #2-&gt;Read entry #2]]
-[[Go back to office-&gt;Home office]]</tw-passagedata><tw-passagedata pid="33" name="Read entry #2" tags="" position="1703,1169" size="100,100">//Entry #1 - June 15th. 2XXX
+[[Go back to office-&gt;Home office]]</tw-passagedata><tw-passagedata pid="33" name="Read entry #2" tags="journal" position="1703,1169" size="100,100">//Entry #1 - June 15th. 2XXX
 
-Since all the Flightless have been locked up in a ghetto recently. We rarely have contact with the outside world. Food supply is also super limited. I&#39;m hate Flighers&#39; food
+Since all the Flightless have been locked up in a ghetto recently. We rarely have contact with the outside world. Food supply is also super limited. I hate Flyer&#39;s food
 //
 [[Read entry #1-&gt;Read entry #1]]
-[[Go back to office-&gt;Home office]]</tw-passagedata><tw-passagedata pid="34" name="Argument Cashier" tags="" position="2397,1105" size="100,100">Cashier gets angry,
+[[Go back to office-&gt;Home office]]</tw-passagedata><tw-passagedata pid="34" name="Argument Cashier" tags="mall" position="2395,1105" size="100,100">Cashier gets angry,
 (live:2s)[&quot;Get out of my story you wingless filth!&quot;]
 [[Leave-&gt;Go home]]
-[[Cut off cashiers wings-&gt;Hurt cashier]]</tw-passagedata><tw-passagedata pid="35" name="Hurt cashier" tags="" position="2397,1255" size="100,100">&quot;Security personel enters the store and a mexican standoff is initiated&quot;
+[[Cut off cashiers wings-&gt;Hurt cashier]]</tw-passagedata><tw-passagedata pid="35" name="Hurt cashier" tags="mall" position="2397,1255" size="100,100">&quot;Security personel enters the store and a mexican standoff is initiated&quot;
 (live: 3s)[&quot;Hands up wingless, our we&#39;ll shoot&quot;]
 [[Surrender-&gt;Surrender]]
-[[Hope for the best-&gt;Hope for the best]]</tw-passagedata><tw-passagedata pid="36" name="Trust Modine" tags="" position="1880,1409" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="37" name="Don&#39;t trust Modine" tags="" position="2028,1409" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+[[Hope for the best-&gt;gameOver]]</tw-passagedata><tw-passagedata pid="36" name="Trust Modine" tags="token" position="1776,1779" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="37" name="Don&#39;t trust Modine" tags="token" position="1996.333333333333,1790.6666666666667" size="100,100">You took the trinket with you and you decide to sell it. 
+
+You then use the money to buy a pair of infomercial-style wings that you don&#39;t know if they work or not. But hey! You are committed to fly at any cost.
+
+(live:41s)[(goto: &quot;not2&quot;)]</tw-passagedata><tw-passagedata pid="38" name="The end (1)" tags="" position="1951.3333333333333,2175" size="100,100">Sad and frustrated after his flightless friends didn&#39;t want to take part in destroying Five, you decide to go off on your own adventure.
+
+You put on the wings, start jumping and flapping. You can feel your feet lift from the ground, slowly first, then faster and faster you leave the ground.
+
+&quot;That&#39;s a flightless!&quot; someone says.
+
+&quot;Hey you! What do you think you&#39;re doing!? Flightless are not supposed to fly!&quot;
+
+You&#39;re heart is racing. You flap faster and faster, and finally you see the Emergency exit. You will not spend another day on Five.
+
+You open the door, and suddenly you&#39;re sucked out into space. You start flapping your wings again, but moving in space is not the same thing. It&#39;s hard to steer with your newly found wings. And where are you heading? You aim for the big yellow ball, people on Five said it provided the space station with energy, maybe you can go there.
+
+But it gets warm, way too quickly. Something that smells like burnt plastic hits your nostrils. Why does it feel like you&#39;re loosing speed? Why is the sun getting closer? And the burning heat surely is worrying.
+
+You&#39;re sweating, and all your flapping doesn&#39;t take you anywhere. The wings are coming loose, and suddenly you&#39;re falling. The heat is unbearable, the light is burning your eyes. THE END.</tw-passagedata><tw-passagedata pid="39" name="Wake up" tags="" position="1969.3333333333333,265.83333333333337" size="100,100">The back hurts. Eye lids are heavy. Five hours in this thin bunk bed is more sleep than yesterday at least.
+(live:5s)[You put your glasses on and your eyes slowly focuses on a painting of a grey man, right under the ceiling. A small lamp is pointed to a metal name sign under the painting.]
+(live:12s)[//&quot;Charles Modine&quot;.//]
+(live:16s)[The alarm on the wall gives a deafening sound. It&#39;s time for breakfast in the communal dining room.]
+[[Sit at table 1-&gt;Sit at table 1]]
+[[Sit at table 2-&gt;Sit at table 2]]</tw-passagedata><tw-passagedata pid="40" name="Take a look" tags="" position="2112.6666666666665,1365.3333333333335" size="100,100">Your friend Henric is a mechanic. He goes regularly searching for spare parts in debris zones around Five.
+He reveals that he found something interesting that he wishes you to see.
+Henric: Follow me into this alley...
+Henric reaches for his pockets and brings up a small object. You look close, it looks like a small button.
+Henric: I found this and tried attaching it
+(Henric points to his shirt missing one button)
+Henric: But then it got warm. Take a look at it
+
+[[Take a look at the object-&gt;Activate token]]</tw-passagedata><tw-passagedata pid="41" name="trustOrNot" tags="token" position="1901,1642.3333333333333" size="100,100">(You accidently activate the memory token)
+
+//Finally,
+I&#39;m let out of this thing! I&#39;ve been waiting for a thousand years for this day and I&#39;m very sad to say, I am the reason for all of this.//
+
+//I am Charles Modine.//
+//
+A thousand years ago, I made it possible for people in Five to fly by providing them with special suits that would make them float in air without gravity. But they took my invention, twisted it and turned it into something atrocious.//
+
+//You see, humans are not supposed to have wings. Wings are for the birds.//
+
+//I now I realize coming here and sharing my knowledge and skill with them turned out to the biggest mistake of my life.//
+
+//But you can help me correct this mistake.&quot;//
+
+[[Trust Modine-&gt;Trust Modine]]
+[[&lt;a style=&quot;color: #e32619;&quot;&#39;&gt;Don&#39;t trust Modine&lt;/a&gt;-&gt;Don&#39;t trust Modine]]</tw-passagedata><tw-passagedata pid="42" name="not2" tags="" position="2104.6666666666665,1792.5000000000002" size="100,100">You try but fail miserably.
+
+(live:5s)[Maybe that crazy old man was onto something after all...]
+
+(live:10s)[Your great great great grandmother Naomi Baranova might know something...]
+
+(live:13s)[She lived in the same time period as Modine.]
+
+(live:17s)[To talk to her you use a trinket similar to Modine&#39;s. An AI with her memories and consciousness.]
+
+(live:23s)[Your family kept it for sentimental reasons. She was an important figure in founding Five.]
+
+(live:28s)[What should I ask her?]
+
+(live:31s)[(goto: &quot;not3&quot;)]</tw-passagedata><tw-passagedata pid="43" name="not3" tags="" position="2099.6666666666665,1897.5000000000002" size="100,100">You try but fail miserably.
+
+Maybe that crazy old man was onto something after all...
+
+Your great great great grandmother Naomi Baranova might know something...
+
+She lived in the same time period as Modine.
+
+To talk to her you use a trinket similar to Modine&#39;s. An AI with her memories and consciousness.
+
+Your family kept it for sentimental reasons. She was an important figure in founding Five.
+
+What should I ask her?
+
+[[What can you tell me about Modine?-&gt;what can you tell me about Modine]]
+[[What is your favourite color?-&gt;what is your favourite color]]</tw-passagedata><tw-passagedata pid="44" name="what is your favourite color" tags="" position="2213,2014.166666666667" size="100,100">//Yeah not a smart question...//
+
+[[What can you tell me about Modine?-&gt;what can you tell me about Modine]]
+</tw-passagedata><tw-passagedata pid="45" name="what can you tell me about Modine" tags="" position="2061.333333333333,2045.8333333333335" size="100,100">//Great great grandmother://
+//Modine was a fashion designer. I commissioned him to create wings for everyone to fly.//
+
+(live:6s)[//He ended up creating a suit that was easy enough for everyone to use and fly.But Fivers have ended up twisting his invention...//]
+
+(live:15s)[//The original suit was sealed in the Main Building. The only way to get it is to break in//]
+
+(live:18s)[(goto: &quot;getSuit&quot;)]</tw-passagedata><tw-passagedata pid="46" name="getSuit" tags="" position="1934.6666666666663,2022.5000000000002" size="100,100">//Great great grandmother://
+//Modine was a fashion designer. I commissioned him to create wings for everyone to fly.//
+
+//He ended up creating a suit that was easy enough for everyone to use and fly.But Fivers have ended up twisting his invention...
+
+The original suit was sealed in the Main Building. The only way to get it is to break in
+//
+[[Get the suit-&gt;Break in take suit]]</tw-passagedata><tw-passagedata pid="47" name="Break in take suit" tags="" position="1467.9999999999998,2032.5" size="100,100">You break into the building and do what Modine said. 
+
+(live:4s)[//(Your friend Henric has worked as a janitor there and told you how to do it, obviously...)//]
+
+(live:7s)[GUARDS!]
+
+(live:9s)[(goto: &quot;guardsSuit&quot;)]</tw-passagedata><tw-passagedata pid="48" name="guardsSuit" tags="" position="1459.1666666666667,2150.8333333333335" size="100,100">You break into the building and do what Modine said. 
+
+//(Your friend Henric has worked as a janitor there and told you how to do it, obviously...)//
+
+GUARDS!
+
+[[Put on the suit and attempt to fly away-&gt;Put on the suit and attempt to fly away]]
+[[You don&#39;t want to go back to prison, so you turn the suit in-&gt;You don&#39;t want to go back to prison, so you turn the suit in]]</tw-passagedata><tw-passagedata pid="49" name="Put on the suit and attempt to fly away" tags="" position="1339.1666666666667,2272.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="50" name="You don&#39;t want to go back to prison, so you turn the suit in" tags="" position="1582.5,2267.5" size="100,100">You are too dangerous to be left alive in Five.
+(live:5s)[(goto: &quot;gameOver&quot;)]</tw-passagedata><tw-passagedata pid="51" name="Start" tags="" position="1975.833333333333,115.83333333333333" size="100,100">A 1 000 years ago, the fashion designer Charles Modine found a way to help people fly.
+(live:5s)[Little did he know, he would change the world for ever...]
+[[Wake up-&gt;Wake up]]</tw-passagedata><tw-passagedata pid="52" name="Credits" tags="default space" position="1380.8333333333333,33.333333333333336" size="100,100">&lt;p style=&quot;
+text-align: center;
+font-size: 2em;
+color: light-blue;
+;&quot;&gt;Credits&lt;p&gt;
+
+&lt;p style=&quot;text-align: center;
+;&quot;&gt;//This text-based game was designed and built as part of the Playful Interaction Course at Malmö University.//
+
+Names, Names, Names, Names, Names
+
+January 2021&lt;p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;[[&lt;a style=&quot;text-align: center !important;&quot;&gt;Back&lt;/a&gt;-&gt;Landing]]
+&lt;/div&gt;</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,i=!1,a=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){i=!0,a=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw a}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
